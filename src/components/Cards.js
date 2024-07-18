@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 import idLogement from '../datas/logements.json'
-import '../styles/Cards.css'
+import '../styles/Cards.scss'
 import Card from "./Card";
 
 const Cards = () => {

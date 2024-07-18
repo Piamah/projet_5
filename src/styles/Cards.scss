@@ -1,0 +1,9 @@
+.card-list {
+    display: grid;
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px; 
+    margin: 90px;
+    padding: 40px; 
+  }

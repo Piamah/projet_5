@@ -8,10 +8,11 @@ const Logement = () => {
     const {id} = useParams()
     const ficheLogement = idLogement.find((logement)=>logement.id === id)
     console.log(ficheLogement);
+    
     return (
         <>
             <Header />
-            <div>LOGEMENTS{id}</div>
+            <div className="cover-logement">{id}</div>
             <Footer />
         </>
     )
