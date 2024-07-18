@@ -1,0 +1,32 @@
+.card-list {
+    display: grid;
+    background-color: #F6F6F6;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    padding: 20px; 
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+    background-size: cover; 
+    background-position: center; 
+    height: 340px;
+  }
+  
+  
+  /* .card-cover {
+    width: 86%; 
+    height: auto; 
+  }
+   */
+
+  .card-title {
+    color: #FFFFFF;
+    font-family: Montserrat ;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.67px;
+    padding: 10px; 
+  }

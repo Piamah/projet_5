@@ -1,0 +1,31 @@
+.error {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 96, 96, 1);
+    margin: 0px;
+    font-family: Montserrat;
+    font-size: 288px;
+    font-weight: 700;
+    line-height: 410.69px;
+}
+
+.error-txt {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 96, 96, 1);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 51.34px;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.67px;
+    color: black;
+}
