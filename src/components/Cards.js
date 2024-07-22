@@ -8,7 +8,7 @@ const Cards = () => {
     return (
         <div className="card-list">
             {idLogement.map((logement) => (
-                 <Link to={`/logement/${logement.id}`}>
+                 <Link key={logement.id} to={`/logement/${logement.id}`}>
                     <Card
                         title={logement.title}
                         cover={logement.cover}
