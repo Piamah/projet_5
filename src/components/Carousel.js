@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import '../styles/Carousel.scss'
 
 const Carousel = ({pictures}) => {
-    // console.log(pictures);
-    const [current, setCurrent] = useState(false);
+    console.log(pictures);
+    const [current, setCurrent] = useState(0);
 
     const nextSlide = () => {
         setCurrent(current === pictures.length - 1 ? 0 : current + 1);
@@ -18,17 +18,23 @@ console.log(current);
             {current > 0 && (
                 <button className="left-arrow" onClick={prevSlide}>
                 ❮
+                {/* <FontAwesomeIcon icon="fa-solid fa-chevron-left" /> */}
                 </button>
           )}
           {current < pictures.length - 1 && (
                 <button className="right-arrow" onClick={nextSlide}>
                 ❯
+                {/* <FontAwesomeIcon icon="fa-solid fa-chevron-right" /> */}
                 </button>
           )}
             <div className="slide-number">{`${current + 1}/${pictures.length}`}</div>
             {pictures.map((picture, id) => (
                 <div className={id === current ? "slide active" : "slide"} key={id}>
-                {id === current && <img src={picture} alt={`slide ${id}`} className="image" />}
+                {id === current && (
+                <div className='image-container'>
+                    <img src={picture} alt={`slide ${id}`} className="image" />
+                </div>
+                )}
               </div>
             )
         )}
