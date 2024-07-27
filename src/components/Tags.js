@@ -6,8 +6,8 @@ const Tags = ({tags}) => {
     console.log(tags);
 
     return (
-        <div className="tags-list">
-            <div>
+        <div>
+            <div className="tags-list">
             {tags.map((tag, id) => (
                         <div className="tags-logement">
                         <span key={id} className="tag">{tag}</span>

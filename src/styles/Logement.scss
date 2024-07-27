@@ -2,43 +2,24 @@
     margin: 30px 90px 40px 90px;
 }
 
-// **************CAROUSEL********************
-
-// .carousel-root {
-//     /* width: 200px; */
-//     position: relative;
-//     max-width: 100%;
-//     height: 45vh;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     overflow: hidden;
-//     z-index: 1;
-//     margin: 0px 90px 0px 90px;
-// }
-
-// .carousel {
-//     display: none;
-// }
-
-// .control-dots {
-//     display: none;
-// }
-
-// .carousel-status {
-//     display: none;
-// }
-
 .info-logement {
     display: flex;
     justify-content: space-between;
-}
-
-.host-rating {
-    display: flex;
     flex-direction: column;
 }
 
+.host {
+    display: flex;
+    flex-direction: column;
+    gap : 20px
+}
+
+.title-loc-host {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+}
 .title-logement {
     font-family: Montserrat;
     font-size: 36px;
@@ -60,9 +41,15 @@
     display: flex;
 }
 
+.tags-rate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
 .tags-logement {
     background: rgba(255, 96, 96, 1);
-    max-width: 100%;
+    width: fit-content;
     border-radius: 10px;
     margin: 3px;
     display: flex;
@@ -78,8 +65,16 @@
     text-align: center;
 }
 
+.tags-list {
+    display: flex;
+    padding: 10px 0px 10px 0px;
+}
+
 .host-logement {
     display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0px 0px 0px;
 }
 
 .host-name {
@@ -94,8 +89,6 @@
 .host-picture {
     width: 64px;
     height: 64px;
-    gap: 0px;
-    opacity: 0px;
     border-radius: 50%;
 
 }

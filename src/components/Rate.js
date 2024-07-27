@@ -1,6 +1,7 @@
 import React from "react";
 import fullStar from "../assets/fullStar.png"
 import emptyStar from "../assets/emptyStar.png"
+import '../styles/Rate.scss'
 
 // Récupération des tags
 const Rate = ({rating}) => {
@@ -8,7 +9,7 @@ const Rate = ({rating}) => {
     const notes=[1, 2, 3, 4, 5]
     console.log(score);
     return (
-        <div className="rates-section">
+        <div className="rate-section">
             <div>
             {notes.map((note) => (
                 //Si mon score supp ou égal à la note alors
