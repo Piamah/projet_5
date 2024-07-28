@@ -48,8 +48,8 @@ const {title, description, host ,location ,equipments} = ficheLogement;
             </div>
             <div className="info-bar">
             {/* Desc/Equip */}
-            <Dropdown label="Description" content={<div className="description-logement">{description}</div>} />
-            <Dropdown label="Equipements" content={
+            <Dropdown title="Description" content={<div className="description-logement">{description}</div>} />
+            <Dropdown title="Equipements" content={
                     <ul className="equipments-logement">
                         {equipments.map((equipment, i) => (
                             <li key={i}>{equipment}</li>

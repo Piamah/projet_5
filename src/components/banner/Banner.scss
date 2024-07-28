@@ -9,7 +9,7 @@
     overflow: hidden;
     z-index: 1;
     border-radius: 25px;
-    margin: 0px 90px 0px 90px;
+    margin: 0px 90px 20px 90px;
 }
 
 .bannerHome {
@@ -34,3 +34,21 @@ h1 {
     z-index: 2;
 }
 
+@media (max-width: 767.98px) { 
+    .banner {
+        height: 15vh;
+        margin : 25px;
+
+        h1 {
+            font-family: Montserrat;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 30px;
+            text-align: left;
+    
+        }
+    }
+    
+  
+    
+    }

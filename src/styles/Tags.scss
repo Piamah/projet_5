@@ -1,0 +1,32 @@
+.tags-section {
+    display: flex;
+}
+
+.tags-rate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.tags-logement {
+    background: rgba(255, 96, 96, 1);
+    width: fit-content;
+    border-radius: 10px;
+    margin: 3px;
+    display: flex;
+}
+
+.tag {
+    font-family: Montserrat;
+    color: white;
+    padding: 4px 15px 4px 14px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.96px;
+    text-align: center;
+}
+
+.tags-list {
+    display: flex;
+    padding: 10px 0px 10px 0px;
+}

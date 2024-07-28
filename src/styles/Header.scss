@@ -26,3 +26,29 @@ li {
 }
 
 // PENSER A AJOUTER UNDERLIGNE WHEN SECTION ON
+@media (max-width: 767.98px) { 
+.header {
+    margin : 25px;
+
+    a {
+        text-transform:uppercase;
+    }
+
+    ul {
+        gap:25px;
+    }
+        .nav {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 17.11px;
+        text-align: right;   
+    }
+    
+    .logo {
+            width: 40%;
+        }
+    }
+
+
+}

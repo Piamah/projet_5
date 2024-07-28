@@ -1,22 +1,20 @@
 import React, { useState } from 'react';
 import '../styles/Dropdown.scss'
 
-const Dropdown = ({label, content}) => {
+const Dropdown = ({title, content}) => {
     const [isOpen, setIsOpen] = useState(false);
 
-    const show = () => {
+    const toggleDropdown = () => {
         setIsOpen(!isOpen);
     };
 
     return (
-        <div>
-            <button className='dropdown-button' onClick={show}>
-                {isOpen ? `${label}` : `${label}` }
+        <div className='dropdown'>
+            <button className='dropdown-button' onClick={toggleDropdown}>
+                {title}
             </button>
             {isOpen && (
-                <div className="dropdown-content">
-                    {content}
-                </div>
+                <div className={`dropdown-content ${isOpen ? "open" :""}`}>{content} </div>
             )}
         </div>
     );
@@ -24,12 +22,7 @@ const Dropdown = ({label, content}) => {
 
 export default Dropdown;
 
-// const Collapse = ({ title, children }) => {
-//     const [isOpen, setIsOpen] = useState(false);
-  
-//     const toggleCollapse = () => {
-//       setIsOpen(!isOpen);
-//     };
+
   
 //     return (
 //       <div className="collapse">

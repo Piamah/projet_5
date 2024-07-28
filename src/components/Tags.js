@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../styles/Tags.scss'
 
 // Récupération des tags
 const Tags = ({tags}) => {
@@ -9,8 +9,8 @@ const Tags = ({tags}) => {
         <div>
             <div className="tags-list">
             {tags.map((tag, id) => (
-                        <div className="tags-logement">
-                        <span key={id} className="tag">{tag}</span>
+                        <div key={id} className="tags-logement">
+                        <span className="tag">{tag}</span>
                         </div>
                         ))}
 
