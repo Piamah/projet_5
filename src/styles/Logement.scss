@@ -5,16 +5,17 @@
 .info-logement {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 }
 
-.host {
+.host-rate {
     display: flex;
     flex-direction: column;
     gap : 20px
 }
 
-.title-loc-host {
+.title-loc-tag {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -38,11 +39,10 @@
 }
 
 
-.host-logement {
+.host-info {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 20px 0px 0px 0px;
 }
 
 .host-name {
@@ -85,6 +85,17 @@
             line-height: 19.96px;
             text-align: left;
 
+        }
+
+        .info-logement {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .host-rate {
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
         }
     }
     

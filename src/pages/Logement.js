@@ -21,33 +21,29 @@ const {title, description, host ,location ,equipments} = ficheLogement;
     <>
       <Header />
         <div className="logement-section">
-            {/* Photos du logement */}
             <Carousel pictures = {ficheLogement.pictures}>
             </Carousel>
             <div className="info-logement">
-                <div className="title-loc-host">
+                <div className="title-loc-tag">
                     <div>
                         <div className="title-logement">{title}</div>
                         <div className="location-logement">{location}</div>
-                    </div>
-                    <div className="host">
-                        <div className="host-logement">
-                            <span className="host-name">{host.name}</span>
-                            <img className="host-picture" src={host.picture} alt={host.name} />
+                        <div className="tags">
+                            <Tags tags = {ficheLogement.tags}>
+                            </Tags>
                         </div>
                     </div>
                 </div>
-                {/* Tags */}
-                <div className="tags-rate">
-                    <Tags tags = {ficheLogement.tags}>
-                    </Tags>
-                {/* Rates */}
+                <div className="host-rate">
+                    <div className="host-info">
+                        <span className="host-name">{host.name}</span>
+                        <img className="host-picture" src={host.picture} alt={host.name} />
+                    </div>
                     <Rate rating = {ficheLogement.rating}>
                     </Rate>
                 </div>
             </div>
             <div className="info-bar">
-            {/* Desc/Equip */}
             <Dropdown title="Description" content={<div className="description-logement">{description}</div>} />
             <Dropdown title="Equipements" content={
                     <ul className="equipments-logement">
