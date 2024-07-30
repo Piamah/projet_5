@@ -18,13 +18,13 @@ console.log(current);
             {current > 0 && (
                 <button className="left-arrow" onClick={prevSlide}>
                 ❮
-                {/* <FontAwesomeIcon icon="fa-solid fa-chevron-left" /> */}
+                <i className="fa-solid fa-chevron-left"></i>
                 </button>
           )}
           {current < pictures.length - 1 && (
                 <button className="right-arrow" onClick={nextSlide}>
                 ❯
-                {/* <FontAwesomeIcon icon="fa-solid fa-chevron-right" /> */}
+                <i className="fa-solid fa-chevron-right"></i>
                 </button>
           )}
             <div className="slide-number">{`${current + 1}/${pictures.length}`}</div>

@@ -12,7 +12,9 @@ const Dropdown = ({title, content}) => {
         <div className='dropdown'>
             <button className='dropdown-button' onClick={toggleDropdown}>
                 {title}
-            </button>
+                <i className={`fa-solid fa-chevron-up ${isOpen ? "down" : "up"}`}></i>
+        
+            </button> 
             {isOpen && (
                 <div className={`dropdown-content ${isOpen ? "open" :""}`}>{content} </div>
             )}

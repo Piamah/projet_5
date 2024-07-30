@@ -2,6 +2,14 @@
     padding: 0px 15px 0px 0px;
 }
 
+.full-star {
+    color: rgba(255, 96, 96, 1);
+}
+
+.empty-star  {
+    color: rgba(227, 227, 227, 1)
+}
+
 @media (max-width: 767.98px) { 
 .rate-section {
     display: flex;
