@@ -3,19 +3,25 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
-margin: 0px 90px 0px 90px;
-width: 100%;
+max-width: 100%;
+display: flex;
+gap:30px;
 
 }
 
-.dropdown-content {
-    background: rgba(246, 246, 246, 0.45);
-    padding: 15px;
-    width: 67%;
+.about {
+    max-width: 1440px;
 }
 
 .dropdown {
-    padding: 10px;
+    width: 55% !important;
+
+    
+}
+
+.dropdown-content {
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
 }
 
 .bannerHome {

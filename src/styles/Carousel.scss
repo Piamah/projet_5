@@ -1,7 +1,6 @@
 .carousel {
     position: relative;
     width: 100%;
-    max-width: 1240px;
     margin: auto;
     overflow: hidden;
     height: 415px;
@@ -56,4 +55,10 @@
 
 .right-arrow {
   right: 10px;
+}
+
+.slide-number {
+  position: absolute;
+  z-index: 1;
+  display: flex;
 }

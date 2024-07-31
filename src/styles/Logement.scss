@@ -84,18 +84,38 @@
             font-weight: 500;
             line-height: 19.96px;
             text-align: left;
+            padding-top: 5px;
 
         }
 
         .info-logement {
             flex-direction: column;
-            align-items: flex-start;
+            align-items: stretch;
         }
 
         .host-rate {
+            display: flex;
             flex-direction: row-reverse;
             align-items: center;
             justify-content: space-between;
+            margin: 3px;
+        }
+        .host-picture {
+            width: 15%;
+            height: 15%;
+        }
+
+        .host-name {
+            font-family: Montserrat;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 17.11px;
+            text-align: right;
+
+        }
+
+        .host-info {
+            justify-content: flex-end;
         }
     }
     

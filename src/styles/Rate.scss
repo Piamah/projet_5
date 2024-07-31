@@ -4,18 +4,31 @@
 
 .full-star {
     color: rgba(255, 96, 96, 1);
+    font-size:20px;
 }
 
 .empty-star  {
-    color: rgba(227, 227, 227, 1)
+    color: rgba(227, 227, 227, 1);
+    font-size:20px;
+}
+
+.rating  {
+    display: flex;
+    gap: 10px;
 }
 
 @media (max-width: 767.98px) { 
 .rate-section {
     display: flex;
+
+    .rating {
+        gap: 5px;
+    }
+
+    .full-star, .empty-star {
+        font-size:10px;
+    }
+
 }
 
-.star {
-    width: 11%;
-}
 }

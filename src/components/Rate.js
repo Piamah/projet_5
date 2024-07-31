@@ -8,7 +8,7 @@ const Rate = ({rating}) => {
     console.log(score);
     return (
         <div className="rate-section">
-            <div>
+            <div className="rating">
             {notes.map((note) => (
                 //Si mon score supp ou égal à la note alors
                         score >= note ? (

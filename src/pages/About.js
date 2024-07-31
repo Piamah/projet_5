@@ -7,7 +7,7 @@ import Dropdown from "../components/Dropdown";
 
 const About = () => {
     return (
-        <div>
+        <div className="about">
         <Header />
         <Banner image={imageBanner}/>
             <div className="dropdown-about">
