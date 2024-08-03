@@ -17,17 +17,14 @@ console.log(current);
         <div className="carousel">
             {current > 0 && (
                 <button className="left-arrow" onClick={prevSlide}>
-                ❮
                 <i className="fa-solid fa-chevron-left"></i>
                 </button>
           )}
           {current < pictures.length - 1 && (
                 <button className="right-arrow" onClick={nextSlide}>
-                ❯
                 <i className="fa-solid fa-chevron-right"></i>
                 </button>
           )}
-            <div className="slide-number">{`${current + 1}/${pictures.length}`}</div>
             {pictures.map((picture, id) => (
                 <div className={id === current ? "slide active" : "slide"} key={id}>
                 {id === current && (
@@ -36,8 +33,8 @@ console.log(current);
                 </div>
                 )}
               </div>
-            )
-        )}
+            ))}
+            <div className="slide-number">{`${current + 1}/${pictures.length}`}</div>
         </div>
     )
 }
