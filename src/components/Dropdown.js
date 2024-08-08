@@ -16,7 +16,7 @@ const Dropdown = ({title, content}) => {
         
             </button> 
             {isOpen && (
-                <div className={`dropdown-content ${isOpen ? "open" :""}`}>{content} </div>
+                <div className={`dropdown-content ${isOpen ? "open" :"close"}`}>{content} </div>
             )}
         </div>
     );

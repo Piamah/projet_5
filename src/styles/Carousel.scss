@@ -32,7 +32,6 @@
   .slide.active {
     opacity: 1;
     transition-duration: 1s;
-    transform: scale(1.08);
   }
 
 .left-arrow,
@@ -82,5 +81,9 @@
 
   .slide-number {
     display: none;
+  }
+
+  .image {
+    height: 255px;
   }
 }
