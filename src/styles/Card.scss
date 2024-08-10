@@ -30,3 +30,11 @@
     align-self: flex-start;
     text-decoration-line: none ;
 }
+
+
+@media (max-width: 767.98px) {
+
+    .card {
+        max-height: 255px;
+    }
+ }

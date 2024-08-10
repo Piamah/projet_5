@@ -15,9 +15,9 @@ const Dropdown = ({title, content}) => {
                 <i className={`fa-solid fa-chevron-up ${isOpen ? "down" : "up"}`}></i>
         
             </button> 
-            {isOpen && (
-                <div className={`dropdown-content ${isOpen ? "open" :"close"}`}>{content} </div>
-            )}
+            <div className={`dropdown-content ${isOpen ? "open" :"close"}`}>
+                <div className="dropdown-text">{content}</div> 
+            </div>
         </div>
     );
 };
@@ -25,15 +25,12 @@ const Dropdown = ({title, content}) => {
 export default Dropdown;
 
 
-  
-//     return (
-//       <div className="collapse">
-//         <button className="collapse-button" onClick={toggleCollapse}>
-//           {title} <FontAwesomeIcon icon={faAngleUp} className={`arrow ${isOpen ? "down" : "up"}`} />
-//         </button>
-//         <div className={`collapse-content ${isOpen ? "open" : ""}`}>{children}</div>
-//       </div>
+
+
+
+//             CF L18 {isOpen && (
+//                 <div className={`dropdown-content ${isOpen ? "open" :"close"}`}>{content} </div>
+//             )}
+//         </div>
 //     );
-//   };
-  
-//   export default Collapse;
+// };

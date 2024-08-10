@@ -29,3 +29,35 @@
     line-height: 25.67px;
     color: black;
 }
+
+
+@media (max-width: 767.98px) { 
+    .error-txt {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25.67px;
+        text-align: center;
+        
+    }
+
+    .error {
+        font-family: Montserrat;
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 136.9px;
+        text-align: center;
+    }
+
+    .back {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 19.96px;
+        text-align: left;
+        padding: 20px;
+        margin: 30px;
+
+    }
+    
+}

@@ -1,28 +1,41 @@
 .dropdown {
     width: 100%;
-    // position: relative;
+    overflow: hidden;
 }
 
 .dropdown-content {
-    display: flex;
-    background: rgba(246, 246, 246, 0.45);
-    width: 100%;
-    transition-timing-function: ease-in-out;
-    transition-duration: 2s;
+    transition: all 300ms;
+    background-color: #F6F6F673;
+    border-radius: 0 0 10px 10px;
+    transform: translateY(-100%);
+    transform-origin: 50% 0%;
+    opacity: 0;
+    position: relative;
+    z-index: -2;
+    .dropdown-text{
+        height: 0;
+        display: flex;
+        width: 100%;
+        gap: 2px;
+        padding : 10px 20px;
+        margin: 0px;
+        box-sizing: border-box;
+        ul{
+            margin: 0;
+            padding-left: 0;
+        }
+    }
+
+    &.open {
+        transform: translateY(0);
+        opacity: 1;
+        max-height: 220px;
+        .dropdown-text{
+            height: auto;
+        }
+    }
 }
 
-
-.description-logement, 
-.equipments-logement {
-    display: flex;
-    width: 100%;
-    height: 180px;;
-    gap: 2px;
-    padding : 10px 40px 20px 20px;
-    margin: 0px;
-
-
-}
 
 .info-bar {
     gap: 100px;
@@ -82,7 +95,7 @@
         width: 100% !important;
     }
 
-    .description-logement, .equipments-logement {
+    .dropdown-text{
         padding: 0px 10px 10px 10px;
     }
 

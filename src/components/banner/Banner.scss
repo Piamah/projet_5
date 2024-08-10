@@ -1,7 +1,6 @@
 .banner {
     position: relative;
     max-width: 100%;
-    // width: 90%;
     height: 27vh; 
     display: flex;
     align-items: center;
@@ -24,7 +23,6 @@
 
 h1 {
     position: absolute;
-    // font-size: 4vw;
     font-size: 48px;
     font-family: Montserrat;
     color: white;
@@ -41,10 +39,12 @@ h1 {
 
         h1 {
             font-family: Montserrat;
-            font-size: 32px;
+            font-size: 1.3em;
             font-weight: 700;
             line-height: 30px;
             text-align: left;
+            margin-left: 20px;
+            margin-right: 90px;
     
         }
     }
