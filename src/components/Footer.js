@@ -4,13 +4,9 @@ import '../styles/Footer.scss'
 
 function Footer () {
     return (
-        <footer className='footer' style={{
-            backgroundColor:'black'
-        }}>
+        <footer className='footer'>
             <img className='logo-footer' src={logo} alt = 'Logo Kasa'></img>
-            <p style= {{
-                color:'white'
-            }}>© 2020 Kasa. All rights reserved</p>
+            <p>© 2020 Kasa. All rights reserved</p>
         </footer>
 
         

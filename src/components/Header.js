@@ -26,29 +26,3 @@ function Header () {
 
 export default Header 
 
-
-// function Header () {
-
-// ******************AJOUT CONTENU ICI*********************
-
-
-//     return (
-//         <header className='header'>
-//             <img className='logo' src={logo} alt = 'Logo Kasa'></img>
-//             <nav>
-//                 <ul>
-//                     <li>
-//                         <Link to = "/" className='nav'>Accueil</Link> + ****************UNDERLINE ADDED********************
-//                     </li>
-//                     <li>
-//                        <Link to = "/about" className='nav'>À propos</Link> 
-//                     </li>
-//                 </ul>
-//             </nav>
-//         </header>
-
-        
-//     )
-// }
-
-// export default Header 

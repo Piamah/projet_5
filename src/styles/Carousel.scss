@@ -15,20 +15,15 @@
 
 .image {
   position: absolute;
-  // top: 50%;
-  // left: 50%;
-  // transform: translate(-50%, -10%);
   width: 100%;
-  // height: auto;
   object-fit: cover;
-  // border-radius: 15px;
 }
 
 .slide {
     opacity: 0;
     transition-duration: 1s ease;
   }
-  
+    
   .slide.active {
     opacity: 1;
     transition-duration: 1s;

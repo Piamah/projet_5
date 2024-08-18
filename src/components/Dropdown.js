@@ -24,13 +24,3 @@ const Dropdown = ({title, content}) => {
 
 export default Dropdown;
 
-
-
-
-
-//             CF L18 {isOpen && (
-//                 <div className={`dropdown-content ${isOpen ? "open" :"close"}`}>{content} </div>
-//             )}
-//         </div>
-//     );
-// };
