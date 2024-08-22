@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import idLogement from '../datas/logements.json'
-import '../styles/Cards.scss'
-import Card from "./Card";
+// import idLogement from '../../datas/logements.json'
+import './Cards.scss';
+import Card from "../card/Card";
 
-const Cards = () => {
+const Cards = ({ logements }) => {
     return (
         <div className="card-list">
-            {idLogement.map((logement) => (
+            {logements.map((logement) => (
                  <Link key={logement.id} to={`/logement/${logement.id}`}>
                     <Card
                         title={logement.title}

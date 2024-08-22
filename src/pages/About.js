@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../components/header/Header";
 import Banner from "../components/banner/Banner";
 import imageBanner from "../assets/Banner_IMG_2.png"
 import '../styles/About.scss'
-import Dropdown from "../components/Dropdown";
+import Dropdown from "../components/dropdown/Dropdown";
 
 const About = () => {
     return (

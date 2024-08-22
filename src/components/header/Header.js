@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from '../assets/LOGO.png';
+import logo from '../../assets/LOGO.png';
 import { Link, useLocation } from 'react-router-dom'
-import '../styles/Header.scss'
+import '../header/Header.scss'
 
 function Header () {
     const location = useLocation();
     const path = location.pathname;
-    console.log(path)
+    // console.log(path)
     return (
         <header className='header'>
             <img className='logo' src={logo} alt = 'Logo Kasa'></img>

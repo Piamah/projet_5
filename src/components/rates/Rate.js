@@ -1,11 +1,11 @@
 import React from "react";
-import '../styles/Rate.scss'
+import '../rates/Rate.scss'
 
 // Récupération des tags
 const Rate = ({rating}) => {
     const score = rating;
     const notes=[1, 2, 3, 4, 5]
-    console.log(score);
+    // console.log(score);
     return (
         <div className="rate-section">
             <div className="rating">

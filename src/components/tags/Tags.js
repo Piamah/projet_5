@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/Tags.scss'
+import '../tags/Tags.scss'
 
 // Récupération des tags
 const Tags = ({tags}) => {
-    console.log(tags);
+    // console.log(tags);
 
     return (
         <div>
