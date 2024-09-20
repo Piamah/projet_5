@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Piamah/projet_5/static/css/main.9e008918.css",
+    "main.js": "/Piamah/projet_5/static/js/main.a59be05b.js",
+    "static/media/Banner_IMG_2.png": "/Piamah/projet_5/static/media/Banner_IMG_2.640955dab8c7bff25514.png",
+    "static/media/Banner_IMG.png": "/Piamah/projet_5/static/media/Banner_IMG.19221376a0aa2549c135.png",
+    "index.html": "/Piamah/projet_5/index.html",
+    "main.9e008918.css.map": "/Piamah/projet_5/static/css/main.9e008918.css.map",
+    "main.a59be05b.js.map": "/Piamah/projet_5/static/js/main.a59be05b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e008918.css",
+    "static/js/main.a59be05b.js"
+  ]
+}
