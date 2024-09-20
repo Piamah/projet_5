@@ -2,7 +2,7 @@
   "name": "kasa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Piamah/projet_5",
+  "homepage": "https://piamah.github.io/projet_5/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
